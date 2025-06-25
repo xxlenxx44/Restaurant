@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header navbar-center-column">
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#mobile-nav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">M.C Grill and Sushi</a>
+        <div class="navbar-contact">Contact info (RANDOM NUMBER HERE)</div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="mobile-nav">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+
+    <div id="chicken" class="section chicken">
+      <div class="section-title">Chicken</div>
+      <p>Enjoy our juicy chicken.<br>Our famous chicken is seasoned in Lawry spices and served with a side of fresh veggies.</p>
+    </div>
+
+    <div id="beef" class="section beef">
+      <div class="section-title">Beef</div>
+      <p>Enjoy our beef fresh off the grill.<br>It's seasoned in old bay seasoning and served with a side of a baked potato.</p>
+    </div>
+
+    <div id="sushi" class="section sushi">
+      <div class="section-title">Sushi</div>
+      <p>Enjoy our fresh sushi.<br>It's seasoned in wasabi and served with a side of fresh veggies.</p>
+    </div>
+  </div>
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

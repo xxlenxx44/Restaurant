@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #000; /* black background */
+  font-family: sans-serif;
+  color: #f0f0f0; /* light text for readability */
+}
+
+/* Navbar Styling */
+.navbar-default {
+  background-color: #111;
+  border-color: #333;
+}
+
+.navbar-default .navbar-brand {
+  color: #f0f0f0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #f0f0f0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #222;
+}
+
+/* Center brand and contact vertically stacked */
+.navbar-header.navbar-center-column {
+  display: flex;
+  flex-direction: column;    /* stack vertically */
+  align-items: center;       /* center horizontally */
+  text-align: center;        /* center text inside children */
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navbar-contact {
+  font-size: 1.1em;
+  color: #f0f0f0;
+  margin-top: 5px;
+}
+
+/* Page Heading */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Section Styling */
+.section {
+  background-color: #1a1a1a; /* dark gray */
+  border: 1px solid #444;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 300px;
+}
+
+.section-title {
+  background-color: #333;
+  border: 1px solid #666;
+  color: #f0f0f0;
+}
+
+/* Custom Colors per Section */
+.chicken {
+  background-color: #332200;
+  color: #f0f0f0;
+}
+.chicken .section-title {
+  background-color: #663300;
+  color: #f0f0f0;
+}
+
+.beef {
+  background-color: #2a1a1a;
+  color: #f0f0f0;
+}
+.beef .section-title {
+  background-color: #5a2a2a;
+  color: #f0f0f0;
+}
+
+.sushi {
+  background-color: #1a2a2a;
+  color: #f0f0f0;
+}
+.sushi .section-title {
+  background-color: #004e5a;
+  color: #f0f0f0;
+}
+
+/* Responsive Layout */
+/* Desktop: 992px and above */
+@media (min-width: 992px) {
+  .section {
+    width: 31.33%;
+    margin: 1%;
+    font-size: 125%;
+  }
+}
+
+/* Tablet: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+    width: 48%;
+    margin: 1%;
+    font-size: 100%;
+  }
+  .section:nth-child(3) {
+    width: 98%;
+  }
+}
+
+/* Mobile: 767px and below */
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 90%;
+  }
+  .navbar-collapse {
+    background-color: #ddd;
+  }
+}
