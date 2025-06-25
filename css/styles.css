@@ -22,11 +22,11 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #f0f0f0;
+  color: black;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #222;
+  background-color: black;
 }
 
 /* Center brand and contact vertically stacked */
