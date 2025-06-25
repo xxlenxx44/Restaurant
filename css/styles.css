@@ -80,7 +80,7 @@ p {
   color: #f0f0f0;
 }
 .chicken .section-title {
-  background-color: #663300;
+  background-color: silv;
   color: #f0f0f0;
 }
 
@@ -117,7 +117,7 @@ p {
   .section {
     width: 48%;
     margin: 1%;
-    font-size: 100%;
+    font-size: 140%;
   }
   .section:nth-child(3) {
     width: 98%;
@@ -129,7 +129,7 @@ p {
   .section {
     width: 100%;
     margin: 10px 0;
-    font-size: 90%;
+    font-size: 150%;
   }
   .navbar-collapse {
     background-color: #ddd;
